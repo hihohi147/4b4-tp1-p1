@@ -22,4 +22,11 @@ public static String nom, prenom, formation, attentes;
 		// TODO Auto-generated method stub
 
 		
-	}}
+	}
+	
+	public static void afficher() {
+		System.out.println("Nom: " + prenom + " " + nom + "\nFormation: " + formation
+				+ "\nAnnées d'experiences de travail: " + experienceTravail + "\nCompétences: "
+				+ Arrays.toString(competences) + "\nAttentes vis à vis le cours: " + attentes);
+	}
+	}
