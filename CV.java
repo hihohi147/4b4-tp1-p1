@@ -21,7 +21,14 @@ public static String nom, prenom, formation, attentes;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
+		String[] william = { "bonne logique", "motivé" };
+		String[] hamza = { "bon communicateur", "bonne logique" };
+		System.out.println("Bienvenue chez Barette!\n");
+		new CV("Durocher", "William", "DEC (présentement)", "Apprendre", 0, william);
+		CV.afficher();
+		System.out.println("\nBienvenue chez Barette!\n");
+		new CV("Ouchrif", "Hamza", "DEC (présentement)", "Apprendre", 0, hamza);
+		CV.afficher();
 	}
 	
 	public static void afficher() {
